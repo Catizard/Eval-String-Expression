@@ -11,4 +11,17 @@ public class TokenRule {
         this.pri = pri;
         this.op_type = op_type;
     }
+
+    public String getRegex() {
+        return regex;
+    }
+    public Token.TOKEN_TYPES getToken_type() {
+        return token_type;
+    }
+    public int getPri() {
+        return pri;
+    }
+    public Token.OP_TYPES getOp_type() {
+        return op_type;
+    }
 }
